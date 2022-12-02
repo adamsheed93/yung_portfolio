@@ -24,6 +24,9 @@ const ProjectSchema = mongoose.Schema({
     languages:{
         type:[String],
         required:true
+    },
+    featuredApp:{
+        default:false
     }
 })
 
